@@ -2,12 +2,15 @@
 # Git的快速使用
 [参考文档戳这里](#参考文档)
 
-## 省脑子版
+## 速览
 git init  //将该文件夹建立一个仓库
 git add * //将工作区所有保存文件加入到暂存区
 git commit -m "第一次提交" //将暂存区文件提交到仓库引号里面可以适当加入一点注释
 git reset --hard HEAD 回退到最新一次commit(当前版本),并且覆盖本地文件
-## 本地的常用操作(个人理解)
+git push origin
+git pull
+git clone
+## 本地的常用操作
 
 git init  //将该文件夹建立一个仓库
 git add * //将工作区所有保存文件加入到暂存区
@@ -43,4 +46,4 @@ git reset --hard HEAD
 另外,如何链接github账号上的远程仓库啥的,也可以去学一学
 
 ## 参考文档
->>　[菜鸟Git教程](https://www.runoob.com/git/git-tutorial.html)
+> [菜鸟Git教程](https://www.runoob.com/git/git-tutorial.html)
