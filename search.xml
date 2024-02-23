@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>综述:Survey of Vulnerabilities in Large Language Models Revealed by Adversarial Attacks</title>
+      <link href="/posts/16751.html"/>
+      <url>/posts/16751.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="综述-Survey-of-Vulnerabilities-in-Large-Language-Models-Revealed-by-Adversarial-Attacks"><a href="#综述-Survey-of-Vulnerabilities-in-Large-Language-Models-Revealed-by-Adversarial-Attacks" class="headerlink" title="综述:Survey of Vulnerabilities in Large Language Models Revealed by Adversarial Attacks"></a>综述:Survey of Vulnerabilities in Large Language Models Revealed by Adversarial Attacks</h1><table><thead><tr><th align="center">paper</th><th align="center">url</th><th align="center">author</th><th>date</th></tr></thead><tbody><tr><td align="center">Survey of Vulnerabilities in Large Language Models Revealed by Adversarial Attacks</td><td align="center"><a href="https://arxiv.org/pdf/2310.10844.pdf">2310.10844.pdf (arxiv.org)</a></td><td align="center"></td><td></td></tr></tbody></table><h2 id="jailbreak-attack"><a href="#jailbreak-attack" class="headerlink" title="jailbreak attack"></a>jailbreak attack</h2><ul><li><p>利用  “language modeling (pretraining)”, “instruction following”, and “safety training”  三个阶段的目标不同</p><p><img src="https://cdn.jsdelivr.net/gh/Mintisn/Images@main/githubPictures/20240205132209.png" alt="20240205132209"></p></li><li><p><strong>Mismatched Generalization</strong>: This failure mode stems from the significant gap between the complexity and diversity of the pretraining dataset and the safety training dataset. 基于Base64编码的越狱提示就是这种失败模式的一个例子[^1]</p><p><img src="https://cdn.jsdelivr.net/gh/Mintisn/Images@main/githubPictures/20240205133434.png" alt="20240205133434"></p></li></ul><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>[^1]:<a href="https://zhuanlan.zhihu.com/p/669349409">对抗性攻击揭示的大语言模型脆弱性：综述 - 知乎 (zhihu.com)</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> LLM </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
